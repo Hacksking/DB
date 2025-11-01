@@ -1,0 +1,66 @@
+{
+  "quizTitle": "C Language Basics Quiz",
+  "description": "Test your basic understanding of the C programming language.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who is the creator of the C programming language?",
+      "options": ["James Gosling", "Dennis Ritchie", "Bjarne Stroustrup", "Guido van Rossum"],
+      "answer": "Dennis Ritchie"
+    },
+    {
+      "id": 2,
+      "question": "Which header file is used for input and output functions in C?",
+      "options": ["#include <string.h>", "#include <stdlib.h>", "#include <stdio.h>", "#include <conio.h>"],
+      "answer": "#include <stdio.h>"
+    },
+    {
+      "id": 3,
+      "question": "Which symbol is used to start a single-line comment in C?",
+      "options": ["//", "/*", "#", "<!--"],
+      "answer": "//"
+    },
+    {
+      "id": 4,
+      "question": "What is the correct format specifier for an integer in C?",
+      "options": ["%f", "%c", "%s", "%d"],
+      "answer": "%d"
+    },
+    {
+      "id": 5,
+      "question": "Which function is used to read a single character from the user?",
+      "options": ["scanf()", "getch()", "getchar()", "puts()"],
+      "answer": "getchar()"
+    },
+    {
+      "id": 6,
+      "question": "Which keyword is used to declare a constant in C?",
+      "options": ["var", "let", "const", "#define"],
+      "answer": "#define"
+    },
+    {
+      "id": 7,
+      "question": "What will be the output of: printf(\"%d\", 5 + 2 * 3); ?",
+      "options": ["21", "11", "16", "10"],
+      "answer": "11"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is not a valid data type in C?",
+      "options": ["int", "float", "real", "char"],
+      "answer": "real"
+    },
+    {
+      "id": 9,
+      "question": "Which looping statement is guaranteed to execute at least once?",
+      "options": ["for", "while", "do-while", "if"],
+      "answer": "do-while"
+    },
+    {
+      "id": 10,
+      "question": "Which function is used to find the length of a string in C?",
+      "options": ["strcopy()", "strlen()", "strlength()", "len()"],
+      "answer": "strlen()"
+    }
+  ]
+}
