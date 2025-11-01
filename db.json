@@ -1,66 +1,200 @@
 {
-  "quizTitle": "C Language Basics Quiz",
-  "description": "Test your basic understanding of the C programming language.",
+  "quizTitle": "C Language Master Quiz",
   "questions": [
     {
-      "id": 1,
-      "question": "Who is the creator of the C programming language?",
-      "options": ["James Gosling", "Dennis Ritchie", "Bjarne Stroustrup", "Guido van Rossum"],
-      "answer": "Dennis Ritchie"
+      "question": "Who is known as the father of the C programming language?",
+      "options": ["Bjarne Stroustrup", "Dennis Ritchie", "James Gosling", "Guido van Rossum"],
+      "answer": "Dennis Ritchie",
+      "difficulty": "basic"
     },
     {
-      "id": 2,
-      "question": "Which header file is used for input and output functions in C?",
-      "options": ["#include <string.h>", "#include <stdlib.h>", "#include <stdio.h>", "#include <conio.h>"],
-      "answer": "#include <stdio.h>"
+      "question": "Which of the following is the correct syntax to print 'Hello World' in C?",
+      "options": ["printf('Hello World');", "echo('Hello World');", "print('Hello World');", "cout << 'Hello World';"],
+      "answer": "printf('Hello World');",
+      "difficulty": "basic"
     },
     {
-      "id": 3,
-      "question": "Which symbol is used to start a single-line comment in C?",
-      "options": ["//", "/*", "#", "<!--"],
-      "answer": "//"
+      "question": "Which of the following is a valid C variable name?",
+      "options": ["1variable", "variable_1", "variable-1", "variable 1"],
+      "answer": "variable_1",
+      "difficulty": "basic"
     },
     {
-      "id": 4,
-      "question": "What is the correct format specifier for an integer in C?",
-      "options": ["%f", "%c", "%s", "%d"],
-      "answer": "%d"
+      "question": "What is the size of an int data type in C (in most compilers)?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on compiler"],
+      "answer": "4 bytes",
+      "difficulty": "basic"
     },
     {
-      "id": 5,
-      "question": "Which function is used to read a single character from the user?",
-      "options": ["scanf()", "getch()", "getchar()", "puts()"],
-      "answer": "getchar()"
+      "question": "Which symbol is used to comment a single line in C?",
+      "options": ["//", "/*", "#", "--"],
+      "answer": "//",
+      "difficulty": "basic"
     },
     {
-      "id": 6,
-      "question": "Which keyword is used to declare a constant in C?",
-      "options": ["var", "let", "const", "#define"],
-      "answer": "#define"
+      "question": "What is the output of: printf(\"%d\", 5+2*3); ?",
+      "options": ["21", "11", "7", "Error"],
+      "answer": "11",
+      "difficulty": "basic"
     },
     {
-      "id": 7,
-      "question": "What will be the output of: printf(\"%d\", 5 + 2 * 3); ?",
-      "options": ["21", "11", "16", "10"],
-      "answer": "11"
+      "question": "Which function is used to read a character from the keyboard in C?",
+      "options": ["scanf()", "getchar()", "gets()", "fgets()"],
+      "answer": "getchar()",
+      "difficulty": "basic"
     },
     {
-      "id": 8,
-      "question": "Which of the following is not a valid data type in C?",
-      "options": ["int", "float", "real", "char"],
-      "answer": "real"
+      "question": "What will be the output of the following code: printf(\"%d\", sizeof('A'));",
+      "options": ["1", "2", "4", "Depends on system"],
+      "answer": "4",
+      "difficulty": "intermediate"
     },
     {
-      "id": 9,
-      "question": "Which looping statement is guaranteed to execute at least once?",
-      "options": ["for", "while", "do-while", "if"],
-      "answer": "do-while"
+      "question": "Which header file is required for using printf() and scanf()?",
+      "options": ["stdlib.h", "stdio.h", "conio.h", "math.h"],
+      "answer": "stdio.h",
+      "difficulty": "basic"
     },
     {
-      "id": 10,
-      "question": "Which function is used to find the length of a string in C?",
-      "options": ["strcopy()", "strlen()", "strlength()", "len()"],
-      "answer": "strlen()"
+      "question": "Which operator has the highest precedence in C?",
+      "options": ["++", "*", "&&", "="],
+      "answer": "++",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following loops executes at least once?",
+      "options": ["for", "while", "do-while", "none"],
+      "answer": "do-while",
+      "difficulty": "basic"
+    },
+    {
+      "question": "Which keyword is used to prevent any changes to a variable?",
+      "options": ["static", "const", "volatile", "immutable"],
+      "answer": "const",
+      "difficulty": "basic"
+    },
+    {
+      "question": "What is the default return type of a C function if not specified?",
+      "options": ["void", "int", "float", "double"],
+      "answer": "int",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which function is used to dynamically allocate memory in C?",
+      "options": ["malloc()", "alloc()", "memalloc()", "create()"],
+      "answer": "malloc()",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the correct syntax for a pointer to an integer in C?",
+      "options": ["int *ptr;", "int ptr*;", "pointer int ptr;", "int &ptr;"],
+      "answer": "int *ptr;",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What will be the output of: printf(\"%d\", 10/4);",
+      "options": ["2.5", "2", "3", "Error"],
+      "answer": "2",
+      "difficulty": "basic"
+    },
+    {
+      "question": "What is the output of the following code?\n\nint a = 5; printf(\"%d\", a++ + ++a);",
+      "options": ["11", "12", "10", "Undefined behavior"],
+      "answer": "Undefined behavior",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which function compares two strings in C?",
+      "options": ["strcompare()", "strcmp()", "compare()", "stringcmp()"],
+      "answer": "strcmp()",
+      "difficulty": "basic"
+    },
+    {
+      "question": "Which of these is not a valid storage class in C?",
+      "options": ["auto", "register", "mutable", "extern"],
+      "answer": "mutable",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is a dangling pointer?",
+      "options": [
+        "Pointer pointing to a valid memory",
+        "Pointer pointing to freed memory",
+        "Pointer with no address",
+        "Pointer initialized to zero"
+      ],
+      "answer": "Pointer pointing to freed memory",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is used for conditional compilation?",
+      "options": ["#ifdef", "#endif", "#if", "All of these"],
+      "answer": "All of these",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the output of: sizeof(int) == sizeof(long)?",
+      "options": ["True on all systems", "False on all systems", "Depends on compiler", "None"],
+      "answer": "Depends on compiler",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of these cannot be a structure member in C?",
+      "options": ["Array", "Pointer", "Function", "Another structure"],
+      "answer": "Function",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is recursion?",
+      "options": [
+        "Function calling another function",
+        "Function calling itself",
+        "Loop inside a function",
+        "None of these"
+      ],
+      "answer": "Function calling itself",
+      "difficulty": "basic"
+    },
+    {
+      "question": "Which of the following is true about C?",
+      "options": [
+        "C is a low-level language",
+        "C is a high-level language",
+        "C is both high and low-level",
+        "C is a scripting language"
+      ],
+      "answer": "C is both high and low-level",
+      "difficulty": "basic"
+    },
+    {
+      "question": "What does EOF stand for in C?",
+      "options": ["End of Function", "End of File", "Error of Function", "End of Format"],
+      "answer": "End of File",
+      "difficulty": "basic"
+    },
+    {
+      "question": "Which function is used to free allocated memory?",
+      "options": ["free()", "delete()", "remove()", "clear()"],
+      "answer": "free()",
+      "difficulty": "basic"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", printf(\"Hello\"));",
+      "options": ["Hello5", "5Hello", "Error", "5"],
+      "answer": "Hello5",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which keyword is used to exit from a loop in C?",
+      "options": ["stop", "exit", "break", "return"],
+      "answer": "break",
+      "difficulty": "basic"
+    },
+    {
+      "question": "Which operator is used to access the value at the address stored in a pointer?",
+      "options": ["&", "*", "->", "."],
+      "answer": "*",
+      "difficulty": "basic"
     }
   ]
 }
